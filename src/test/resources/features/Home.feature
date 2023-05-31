@@ -1,15 +1,16 @@
+@Regression
 Feature: Retail Home Page
 
   Background: 
     Given User is on retail website
     When User click on All section
 
-  @SmokeTest
+  #@SmokeTest
   Scenario: Verify Shop by Department sidebar
     Then below options are present in Shop by Department sidebar
       | Electronics | Computers | Smart Home | Sports | Automative |
 
-  @SmokeTest2
+  #@SmokeTest2
   Scenario Outline: Verify department sidebar options
     And User on '<department>'
     Then below options are present in department

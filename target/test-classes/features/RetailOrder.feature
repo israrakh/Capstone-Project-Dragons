@@ -1,3 +1,4 @@
+@Regression
 Feature: Retail Order Page
 
   Background: 
@@ -7,7 +8,7 @@ Feature: Retail Order Page
     And User click on login button
     And User should be logged in into Account
 
-  @OrderTest
+  #@OrderTest
   Scenario: Verify User can add an item to cart
     And User change the category to 'Smart Home'
     And User search for an item 'kasa outdoor smart plug'
@@ -31,7 +32,7 @@ Feature: Retail Order Page
     And User click on Place Your Order
     Then a message should be displayed 'Order Placed, Thanks'
 
-  @CancelOrder
+  #@CancelOrder
   Scenario: Verify User can cancel the order
     And User click on Orders section
     And User click on first order in list
@@ -40,7 +41,7 @@ Feature: Retail Order Page
     And User click on Cancel Order button
     Then a cancelation message should be displayed 'Your Order Has Been Cancelled'
 
-  @ReturnOrder
+  #@ReturnOrder
   Scenario: Verify User can Return the order
     And User click on Orders section
     And User click on first order in list
@@ -50,7 +51,7 @@ Feature: Retail Order Page
     And User click on Return Order button
     Then a cancelation message should be displayed 'Return was successfull’
 	
-	@ReviewOrder
+	#@ReviewOrder
   Scenario: Verify User can write a review on order placed
     And User click on Orders section
     And User click on first order in list
