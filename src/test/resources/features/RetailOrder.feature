@@ -18,7 +18,7 @@ Feature: Retail Order Page
     And User click add to Cart button
     Then the cart icon quantity should change to '2'
 
-  @OrderPlacing
+  #@OrderPlacing
   Scenario: Verify User can place an order with Shipping address and payment Method on file
     And User change the category to 'Electronics'
     And User search for an item 'Apex Legends'

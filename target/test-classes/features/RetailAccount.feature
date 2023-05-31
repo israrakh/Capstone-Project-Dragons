@@ -11,7 +11,7 @@ Feature: Retail Account Page
   #@Update
   Scenario: Verify User can update Profile Information
     When User click on Account option
-    And User update Name 'Ali Omar' and Phone '757-777-9979'
+    And User update Name 'Israr Ali' and Phone '757-777-9979'
     And User click on Update button
     Then user profile information should be updated
 
