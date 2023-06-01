@@ -1,12 +1,13 @@
 package tek.capstone.steps;
 
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
 import tek.capstone.pages.POMFactory;
 import tek.capstone.utilities.CommonUtilities;
+
 
 public class RetailOrderSteps extends CommonUtilities {
 
