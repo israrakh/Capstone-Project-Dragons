@@ -31,12 +31,14 @@ public class RetailOrderSteps extends CommonUtilities {
 
 	@When("User click on item")
 	public void userClickOnItem() {
+		waitTillPresence(factory.getOrderPage().item);
 		click(factory.getOrderPage().item);
 		logger.info("Item has clicked successfully");
 	}
 
 	@When("User select quantity '2'")
 	public void userSelectQuantity2() {
+		waitTillPresence(factory.getOrderPage().quantityDropdown);
 		selectByVisibleText(factory.getOrderPage().quantityDropdown, "2");
 		logger.info("User successfully selected the quantity to 2");
 	}
@@ -69,10 +71,10 @@ public class RetailOrderSteps extends CommonUtilities {
 		logger.info("Quantity selected successfully to 5");
 	}
 
-	@Then("the cart icon quantity should change to '5'")
+	@Then("the cart icon quantity should change to '7'")
 	public void theCartIconQuantityShouldChangeTo5() {
 		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
-		logger.info("Quantity changed to 5");
+		logger.info("Quantity changed to 7");
 	}
 
 	@Then("User click on Cart option")
