@@ -68,10 +68,10 @@ public class RetailOrderSteps extends CommonUtilities {
 		logger.info("Quantity selected successfully to 5");
 	}
 
-	@Then("the cart icon quantity should change to '5'")
+	@Then("the cart icon quantity should change to '7'")
 	public void theCartIconQuantityShouldChangeTo5() {
 		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
-		logger.info("Quantity changed to 5");
+		logger.info("Quantity changed to 7");
 	}
 
 	@Then("User click on Cart option")

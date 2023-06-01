@@ -8,9 +8,9 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@TestLogin",
+        tags = "@Regression",
         features = ("classpath:features"),
-        glue ="tek.capstone",
+        glue="tek.capstone",
         dryRun = false,
         plugin = {
                 "pretty",
