@@ -30,12 +30,14 @@ public class RetailOrderSteps extends CommonUtilities {
 
 	@When("User click on item")
 	public void userClickOnItem() {
+		waitTillPresence(factory.getOrderPage().item);
 		click(factory.getOrderPage().item);
 		logger.info("Item has clicked successfully");
 	}
 
 	@When("User select quantity '2'")
 	public void userSelectQuantity2() {
+		waitTillPresence(factory.getOrderPage().quantityDropdown);
 		selectByVisibleText(factory.getOrderPage().quantityDropdown, "2");
 		logger.info("User successfully selected the quantity to 2");
 	}
