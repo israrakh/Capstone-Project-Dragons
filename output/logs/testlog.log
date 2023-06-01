@@ -5241,3 +5241,9 @@
 2023-05-31 21:37:21,813 - logger_File -INFO - User successfully clicked on Create New Account button
 2023-05-31 21:37:22,228 - logger_File -INFO - User entered name, email, password, confirm password successfully !
 2023-05-31 21:37:22,310 - logger_File -INFO - User successfully clicked on signUp button
+2023-05-31 21:58:42,078 - logger_File -INFO - User is on retail website
+2023-05-31 21:58:42,227 - logger_File -INFO - User successfully clicked on signin option.
+2023-05-31 21:58:42,413 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-05-31 21:58:42,518 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-05-31 21:58:42,611 - logger_File -INFO - User successfully clicked on login button.
+2023-05-31 21:58:42,994 - logger_File -INFO - User successfully logged in into account
