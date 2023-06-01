@@ -5247,3 +5247,9 @@
 2023-05-31 21:58:42,518 [main] INFO logger_File - Tek@12345 was entered successfully !
 2023-05-31 21:58:42,611 [main] INFO logger_File - User successfully clicked on login button.
 2023-05-31 21:58:42,994 [main] INFO logger_File - User successfully logged in into account
+2023-05-31 22:14:51,409 [main] INFO logger_File - User is on retail website
+2023-05-31 22:14:51,543 [main] INFO logger_File - User successfully clicked on signin option.
+2023-05-31 22:14:51,730 [main] INFO logger_File - israr07@tekschool.us was entered successfully !
+2023-05-31 22:14:51,849 [main] INFO logger_File - Tek@12345 was entered successfully !
+2023-05-31 22:14:51,951 [main] INFO logger_File - User successfully clicked on login button.
+2023-05-31 22:14:52,427 [main] INFO logger_File - User successfully logged in into account
