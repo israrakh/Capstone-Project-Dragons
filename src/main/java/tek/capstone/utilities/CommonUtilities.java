@@ -18,14 +18,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-<<<<<<< HEAD
 import java.time.Duration;
 import java.util.NoSuchElementException;
 import java.util.Set;
-=======
 
 import tek.capstone.base.BaseSetup;
->>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
 
 public class CommonUtilities extends BaseSetup {
 	public WebDriverWait getWait() {
@@ -52,8 +49,13 @@ public class CommonUtilities extends BaseSetup {
 		this.waitTillClickable(element).click();
 	}
 
+	public void click(By by) {
+		this.waitTillClickable(by).click();
+	}
+
 	public void sendText(WebElement element, String value) {
 		this.waitTillPresence(element).sendKeys(value);
+
 	}
 
 	public String getElementText(WebElement element) {
@@ -62,10 +64,6 @@ public class CommonUtilities extends BaseSetup {
 
 	public byte[] takeScreenShotAsBytes() {
 		return ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
-	}
-
-	public void click(By by) {
-		waitTillClickable(by).click();
 	}
 
 	public void sendText(By by, String value) {
@@ -99,11 +97,13 @@ public class CommonUtilities extends BaseSetup {
 	public void selectByValue(WebElement ele, String value) {
 		Select select = new Select(ele);
 		select.selectByValue(value);
+
 	}
 
 	public void selectByVisibleText(WebElement ele, String visibleText) {
 		Select select = new Select(ele);
 		select.selectByVisibleText(visibleText);
+
 	}
 
 	public void deselectByIndex(WebElement ele, int index) {
@@ -121,8 +121,8 @@ public class CommonUtilities extends BaseSetup {
 		deselect.deselectByVisibleText(visibleText);
 	}
 
-	public String getAttribute(WebElement ele, String value) {
-		String attribute = ele.getAttribute(value);
+	public String getAttribute(WebElement ele, String Value) {
+		String attribute = ele.getAttribute(Value);
 		return attribute;
 	}
 
@@ -177,8 +177,9 @@ public class CommonUtilities extends BaseSetup {
 	}
 
 	public WebElement fluientWaitforElement(WebElement element, int timoutSec, int pollingSec) {
-		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(getDriver()).withTimeout(Duration.ofSeconds(30))
-				.pollingEvery(Duration.ofSeconds(30)).ignoring(NoSuchElementException.class, TimeoutException.class)
+		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(getDriver()).withTimeout(Duration.ofSeconds(timoutSec))
+				.pollingEvery(Duration.ofSeconds(pollingSec))
+				.ignoring(NoSuchElementException.class, TimeoutException.class)
 				.ignoring(StaleElementReferenceException.class);
 		for (int i = 0; i < 2; i++)
 			fWait.until(ExpectedConditions.visibilityOf(element));
@@ -190,6 +191,7 @@ public class CommonUtilities extends BaseSetup {
 		Set<String> handles = getDriver().getWindowHandles();
 		for (String winHandle : handles) {
 			String currentWindowTitle = getDriver().switchTo().window(winHandle).getTitle();
+
 			if (currentWindowTitle.equals(pageTitle)) {
 				break;
 			} else {
@@ -201,15 +203,29 @@ public class CommonUtilities extends BaseSetup {
 	public void selectCalendarDateWithJS(String date, WebElement element) {
 		JavascriptExecutor js = ((JavascriptExecutor) getDriver());
 		js.executeScript("arguments[0].setAttribute('value','" + date + "');", element);
+
 	}
 
 	public void clickElementWithJS(WebElement element) {
+
 		JavascriptExecutor js = ((JavascriptExecutor) getDriver());
 		js.executeScript("arguments[0].click();", element);
+
 	}
 
 	public void scrollPageDownWithJS() {
+
 		JavascriptExecutor js = ((JavascriptExecutor) getDriver());
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
+	}
+
+	public void slowDown() {
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
