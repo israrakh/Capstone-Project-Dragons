@@ -13,8 +13,8 @@ public class RetailOrderPage extends BaseSetup {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	@FindBy(xpath = "//img[@class='image']")
-	public WebElement item;
+	@FindBy(xpath = "//img[@alt='Kasa Outdoor Smart Plug']")
+	public WebElement kasa;
 	
 	@FindBy(xpath = "//select[@class='product__select']")
 	public WebElement quantityDropdown;
@@ -22,10 +22,10 @@ public class RetailOrderPage extends BaseSetup {
 	@FindBy(id = "addToCartBtn")
 	public WebElement addToCartButton;
 	
-	@FindBy(id = "cartQuantity")
+	@FindBy(xpath = "//select[@class='product__select']//option[@value='2']")
 	public WebElement cartIconQuantity;
 	
-	@FindBy(xpath = "//p[text()='Apex Legends - 1,000 Apex Coins']")
+	@FindBy(xpath = "//p[@class='products__name']")
 	public WebElement apexLegendsFromSearchField;
 	
 	@FindBy(id = "cartBtn")
