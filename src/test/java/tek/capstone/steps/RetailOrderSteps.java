@@ -1,12 +1,13 @@
 package tek.capstone.steps;
 
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
 import tek.capstone.pages.POMFactory;
 import tek.capstone.utilities.CommonUtilities;
+
 
 public class RetailOrderSteps extends CommonUtilities {
 
@@ -40,6 +41,7 @@ public class RetailOrderSteps extends CommonUtilities {
 
 	@When("User click on item")
 	public void userClickOnItem() {
+<<<<<<< HEAD
 		click(factory.getOrderPage().kasa);
 		logger.info("Item has clicked successfully");
 	}
@@ -54,6 +56,18 @@ public class RetailOrderSteps extends CommonUtilities {
 	public void userSelectQuantity(String quant) {
 		selectByVisibleText(factory.getOrderPage().quantityDropdown, quant);
 		logger.info("User successfully selected the quantity to 2"); 
+=======
+		waitTillPresence(factory.getOrderPage().item);
+		click(factory.getOrderPage().item);
+		logger.info("Item has clicked successfully");
+	}
+
+	@When("User select quantity '2'")
+	public void userSelectQuantity2() {
+		waitTillPresence(factory.getOrderPage().quantityDropdown);
+		selectByVisibleText(factory.getOrderPage().quantityDropdown, "2");
+		logger.info("User successfully selected the quantity to 2");
+>>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
 	}
 
 	@When("User click add to Cart button")
@@ -115,6 +129,7 @@ public class RetailOrderSteps extends CommonUtilities {
 		logger.info("Quantity selected successfully to 5");
 	}
 
+<<<<<<< HEAD
 //	@Then("the cart icon quantity should change to '7'")
 //	public void theCartIconQuantityShouldChangeTo5() {
 //		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
@@ -123,8 +138,12 @@ public class RetailOrderSteps extends CommonUtilities {
 	
 	@Then("the cart icon quantity should change to {string}")
 	public void theCartIconQuantityShouldChangeTo(String quantSeven) {
+=======
+	@Then("the cart icon quantity should change to '7'")
+	public void theCartIconQuantityShouldChangeTo5() {
+>>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
 		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
-		logger.info("Quantity changed to 5");
+		logger.info("Quantity changed to 7");
 	}
 
 	@Then("User click on Cart option")

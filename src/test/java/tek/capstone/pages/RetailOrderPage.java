@@ -13,13 +13,18 @@ public class RetailOrderPage extends BaseSetup {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
+<<<<<<< HEAD
 	@FindBy(xpath = "//img[@alt='Kasa Outdoor Smart Plug']")
 	public WebElement kasa;
+=======
+	@FindBy(xpath = "//p[@class='products__name']")
+	public WebElement item;
+>>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
 	
 	@FindBy(xpath = "//select[@class='product__select']")
 	public WebElement quantityDropdown;
 	
-	@FindBy(id = "addToCartBtn")
+	@FindBy(xpath = "//button[@id='addToCartBtn']")
 	public WebElement addToCartButton;
 	
 	@FindBy(xpath = "//select[@class='product__select']//option[@value='2']")
