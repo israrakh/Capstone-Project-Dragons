@@ -18,8 +18,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+<<<<<<< HEAD
+import java.time.Duration;
+import java.util.NoSuchElementException;
+import java.util.Set;
+=======
 
 import tek.capstone.base.BaseSetup;
+>>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
 
 public class CommonUtilities extends BaseSetup {
 	public WebDriverWait getWait() {

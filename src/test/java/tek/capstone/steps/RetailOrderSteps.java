@@ -13,17 +13,27 @@ public class RetailOrderSteps extends CommonUtilities {
 
 	POMFactory factory = new POMFactory();
 
-	@When("User change the category to 'Smart Home'")
-	public void userChangeTheCategoryToSmartHome() {
-		selectByVisibleText(factory.getHomePage().allDepartments, "Smart Home");
+//	@When("User change category to 'Smart Home'")
+//	public void userChangeTheCategoryToSmartHome() {
+//		selectByVisibleText(factory.getHomePage().allDepartments, "Smart Home");
+//		logger.info("User successfully changed the category to <Smart Home> ");
+//	}
+
+//	@When("User search for item 'kasa outdoor smart plug'")
+//	public void userSearchForAnItemKasaOutdoorSmartPlug() {
+//		sendText(factory.getHomePage().searchInputField, "kasa outdoor smart plug");
+//	}
+
+	@When("User change category to {string}")
+	public void userChangeCategoryTo(String smartHome) {
+		selectByVisibleText(factory.getHomePage().allDepartments, smartHome);
 		logger.info("User successfully changed the category to <Smart Home> ");
 	}
-
-	@When("User search for an item 'kasa outdoor smart plug'")
-	public void userSearchForAnItemKasaOutdoorSmartPlug() {
-		sendText(factory.getHomePage().searchInputField, "kasa outdoor smart plug");
+	@When("User search for item {string}")
+	public void userSearchForItem(String kasa) {
+		sendText(factory.getHomePage().searchInputField, kasa);
 	}
-
+	
 	@When("User click on Search icon")
 	public void userClickOnSearchIcon() {
 		click(factory.getHomePage().searchButton);
@@ -31,6 +41,22 @@ public class RetailOrderSteps extends CommonUtilities {
 
 	@When("User click on item")
 	public void userClickOnItem() {
+<<<<<<< HEAD
+		click(factory.getOrderPage().kasa);
+		logger.info("Item has clicked successfully");
+	}
+
+//	@When("User select quantity '2'")
+//	public void userSelectQuantity2() {
+//		selectByVisibleText(factory.getOrderPage().quantityDropdown, "2");
+//		logger.info("User successfully selected the quantity to 2");
+//	}
+	
+	@When("User select quantity {string}")
+	public void userSelectQuantity(String quant) {
+		selectByVisibleText(factory.getOrderPage().quantityDropdown, quant);
+		logger.info("User successfully selected the quantity to 2"); 
+=======
 		waitTillPresence(factory.getOrderPage().item);
 		click(factory.getOrderPage().item);
 		logger.info("Item has clicked successfully");
@@ -41,6 +67,7 @@ public class RetailOrderSteps extends CommonUtilities {
 		waitTillPresence(factory.getOrderPage().quantityDropdown);
 		selectByVisibleText(factory.getOrderPage().quantityDropdown, "2");
 		logger.info("User successfully selected the quantity to 2");
+>>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
 	}
 
 	@When("User click add to Cart button")
@@ -48,31 +75,73 @@ public class RetailOrderSteps extends CommonUtilities {
 		click(factory.getOrderPage().addToCartButton);
 	}
 
-	@Then("the cart icon quantity should change to '2'")
-	public void theCartIconQuantityShouldChangeTo2() {
+//	@Then("cart icon quantity should change to '2'")
+//	public void cartIconQuantityShouldChangeTo2() {
+//		Assert.assertTrue(factory.getOrderPage().cartIconQuantity.isDisplayed());
+//		logger.info("Quantity changed to 2");
+//	}
+	
+	@Then("cart icon quantity should change to {string}")
+	public void cartIconQuantityShouldChangeTo(String quantTwo) {
 		Assert.assertTrue(factory.getOrderPage().cartIconQuantity.isDisplayed());
 		logger.info("Quantity changed to 2");
 	}
 
-	@When("User change the category to 'Electronics'")
-	public void userChangeTheCategoryToElectronics() {
-		selectByVisibleText(factory.getHomePage().allDepartments, "Electronics");
+//	@When("User change the category to 'Electronics'")
+//	public void userChangeTheCategoryToElectronics() {
+//		selectByVisibleText(factory.getHomePage().allDepartments, "Electronics");
+//		logger.info("User successfully changed the category to Electronics");
+//	}
+	
+	@When("User change the category to {string}")
+	public void userChangeTheCategoryTo(String elec) {
+		selectByVisibleText(factory.getHomePage().allDepartments, elec);
 		logger.info("User successfully changed the category to Electronics");
 	}
-
-	@When("User search for an item 'Apex Legends'")
-	public void userSearchForAnItemApexLegends() {
-		sendText(factory.getHomePage().searchInputField, "Apex Legends");
+	
+//	@When("User search for an item 'Apex Legends'")
+//	public void userSearchForAnItemApexLegends() {
+//		waitTillPresence(factory.getHomePage().searchInputField);
+//		sendText(factory.getHomePage().searchInputField, "Apex Legends");
+//	}
+	
+	@When("User search for an item {string}")
+	public void userSearchForAnItem(String apex) {
+		waitTillPresence(factory.getHomePage().searchInputField);
+		sendText(factory.getHomePage().searchInputField, apex);
 	}
 
-	@When("User select quantity '5'")
-	public void userSelectQuantity5() {
-		selectByVisibleText(factory.getOrderPage().quantityDropdown, "5");
+	@When("User click on item Apex")
+	public void userClickOnItemApex() {
+		click(factory.getOrderPage().apexLegendsFromSearchField);
+		logger.info("Item has clicked successfully");
+	}
+
+//	@When("User select quantity '5'")
+//	public void userSelectQuantity5() {
+//		selectByVisibleText(factory.getOrderPage().quantityDropdown, "5");
+//		logger.info("Quantity selected successfully to 5");
+//	}
+	
+	@When("User select quantity to {string}")
+	public void userSelectQuantityTo(String itemQuantity) {
+		selectByVisibleText(factory.getOrderPage().quantityDropdown, itemQuantity);
 		logger.info("Quantity selected successfully to 5");
 	}
 
+<<<<<<< HEAD
+//	@Then("the cart icon quantity should change to '7'")
+//	public void theCartIconQuantityShouldChangeTo5() {
+//		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
+//		logger.info("Quantity changed to 5");
+//	}
+	
+	@Then("the cart icon quantity should change to {string}")
+	public void theCartIconQuantityShouldChangeTo(String quantSeven) {
+=======
 	@Then("the cart icon quantity should change to '7'")
 	public void theCartIconQuantityShouldChangeTo5() {
+>>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
 		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
 		logger.info("Quantity changed to 7");
 	}
@@ -111,11 +180,11 @@ public class RetailOrderSteps extends CommonUtilities {
 		logger.info("User successfully clicked on Orders option");
 	}
 
-	@When("User click on first order in list")
-	public void userClickOnFirstOrderInList() {
-		waitTillPresence(factory.getOrderPage().orderDetailList);
-		click(factory.getOrderPage().orderDetailList);
-	}
+//	@When("User click on first order in list")
+//	public void userClickOnFirstOrderInList() {
+//		waitTillPresence(factory.getOrderPage().orderDetailList);
+//		click(factory.getOrderPage().orderDetailList);
+//	}
 
 	@When("User click on Cancel The Order button")
 	public void userClickOnCancelTheOrderButton() {

@@ -10,21 +10,21 @@ Feature: Retail Order Page
 
   #@OrderTest
   Scenario: Verify User can add an item to cart
-    And User change the category to 'Smart Home'
-    And User search for an item 'kasa outdoor smart plug'
+    And User change category to 'Smart Home'
+    And User search for item 'kasa outdoor smart plug'
     And User click on Search icon
     And User click on item
     And User select quantity '2'
     And User click add to Cart button
-    Then the cart icon quantity should change to '2'
+    Then cart icon quantity should change to '2'
 
   #@OrderPlacing
   Scenario: Verify User can place an order with Shipping address and payment Method on file
     And User change the category to 'Electronics'
     And User search for an item 'Apex Legends'
     And User click on Search icon
-    And User click on item
-    And User select quantity '5'
+    And User click on item Apex
+    And User select quantity to '5'
     And User click add to Cart button
     Then the cart icon quantity should change to '7'
     And User click on Cart option
@@ -35,7 +35,6 @@ Feature: Retail Order Page
   #@CancelOrder
   Scenario: Verify User can cancel the order
     And User click on Orders section
-    And User click on first order in list
     And User click on Cancel The Order button
     And User select the cancelation Reason 'Bought wrong item'
     And User click on Cancel Order button
@@ -44,7 +43,6 @@ Feature: Retail Order Page
   #@ReturnOrder
   Scenario: Verify User can Return the order
     And User click on Orders section
-    And User click on first order in list
     And User click on Return Items button
     And User select the Return Reason 'Item damaged'
     And User select the drop off service 'FedEx'
