@@ -5617,3 +5617,300 @@
 2023-06-01 17:29:31,176 - logger_File -INFO - User successfully clicked on Account option.
 2023-06-01 17:29:31,583 - logger_File -INFO - User successfully entered new name and phone number.
 >>>>>>> c86f919158207060b41ba679942222e3541e9fe1
+2023-06-01 18:28:13,510 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:13,678 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:28:13,820 - logger_File -INFO - Options: Electronics, Computers, Smart Home, Sports, and Automative are present.
+2023-06-01 18:28:15,673 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:15,820 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:28:15,849 - logger_File -INFO - User is on Electronics section
+2023-06-01 18:28:17,626 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:17,809 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:28:17,860 - logger_File -INFO - User is on Computers section
+2023-06-01 18:28:19,835 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:20,005 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:28:20,042 - logger_File -INFO - User is on Smart Home section
+2023-06-01 18:28:21,847 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:22,020 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:28:22,059 - logger_File -INFO - User is on Sports section
+2023-06-01 18:28:23,881 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:24,068 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:28:24,106 - logger_File -INFO - User is on Automative section
+2023-06-01 18:28:26,155 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:26,274 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:28:26,465 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:28:26,583 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:28:26,687 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:28:27,036 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:28:27,253 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:28:27,650 - logger_File -INFO - User successfully entered new name and phone number.
+2023-06-01 18:28:49,557 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:49,659 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:28:49,780 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:28:49,875 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:28:49,972 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:28:50,308 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:28:50,454 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:28:50,571 - logger_File -INFO - User successfully clicked on add payment method link
+2023-06-01 18:28:51,043 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:28:51,126 - logger_File -INFO - Add Your Card button was successfully clicked
+2023-06-01 18:28:51,850 - logger_File -INFO - Payment method addedd successfully
+2023-06-01 18:28:53,328 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:53,427 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:28:53,577 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:28:53,657 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:28:53,730 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:28:54,007 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:28:54,165 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:28:54,384 - logger_File -INFO - User successfully clicked on Edit button
+2023-06-01 18:28:55,077 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:28:55,157 - logger_File -INFO - User successfully clicked on Update Your Card button
+2023-06-01 18:28:55,874 - logger_File -INFO - Payment method updated successfully
+2023-06-01 18:28:57,476 - logger_File -INFO - User is on retail website
+2023-06-01 18:28:57,579 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:28:57,716 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:28:57,813 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:28:57,894 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:28:58,184 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:28:58,334 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:28:58,515 - logger_File -INFO - remove button was clicked successfully
+2023-06-01 18:28:58,537 - logger_File -INFO - Payment details removed successfully
+2023-06-01 18:29:00,104 - logger_File -INFO - User is on retail website
+2023-06-01 18:29:00,217 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:29:00,364 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:29:00,468 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:29:00,562 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:29:00,895 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:29:01,080 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:29:01,210 - logger_File -INFO - Add Address option was clicked successfully
+2023-06-01 18:29:02,237 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:29:02,356 - logger_File -INFO - Add Your Address button was clicked successfully
+2023-06-01 18:29:03,011 - logger_File -INFO - Address Added Successfully
+2023-06-01 18:29:04,842 - logger_File -INFO - User is on retail website
+2023-06-01 18:29:04,975 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:29:05,165 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:29:05,284 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:29:05,400 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:29:05,712 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:29:05,872 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:29:05,999 - logger_File -INFO - Edit button was clicked successfully
+2023-06-01 18:29:07,878 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:29:08,002 - logger_File -INFO - Update Your Address Button was clicked successfully
+2023-06-01 18:29:08,737 - logger_File -INFO - Address Updated Successfully
+2023-06-01 18:29:10,435 - logger_File -INFO - User is on retail website
+2023-06-01 18:29:10,563 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:29:10,748 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:29:10,859 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:29:10,939 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:29:11,269 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:29:11,458 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:29:11,587 - logger_File -INFO - Remove button from Address section was clicked successfully
+2023-06-01 18:29:11,588 - logger_File -INFO - Address details have removed successfully
+2023-06-01 18:29:13,371 - logger_File -INFO - User is on retail website
+2023-06-01 18:29:13,522 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:29:13,721 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:29:13,835 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:29:13,952 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:29:14,285 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:29:14,452 - logger_File -INFO - User successfully changed the category to <Smart Home> 
+2023-06-01 18:29:14,903 - logger_File -INFO - Item has clicked successfully
+2023-06-01 18:29:15,157 - logger_File -INFO - User successfully selected the quantity to 2
+2023-06-01 18:29:15,324 - logger_File -INFO - Quantity changed to 2
+2023-06-01 18:29:17,128 - logger_File -INFO - User is on retail website
+2023-06-01 18:29:17,288 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:29:17,487 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:29:17,602 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:29:17,712 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:29:18,055 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:29:18,212 - logger_File -INFO - User successfully changed the category to Electronics
+2023-06-01 18:29:18,772 - logger_File -INFO - Item has clicked successfully
+2023-06-01 18:29:18,994 - logger_File -INFO - Quantity selected successfully to 5
+2023-06-01 18:29:19,214 - logger_File -INFO - Quantity changed to 7
+2023-06-01 18:29:19,372 - logger_File -INFO - User successfully clicked on cart Option
+2023-06-01 18:29:19,529 - logger_File -INFO - User successfully clicked on Proceed to Checkout button
+2023-06-01 18:29:41,220 - logger_File -INFO - User is on retail website
+2023-06-01 18:29:41,335 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:29:41,483 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:29:41,584 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:29:41,665 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:29:41,968 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:29:42,118 - logger_File -INFO - User successfully clicked on Orders option
+2023-06-01 18:30:23,880 - logger_File -INFO - User is on retail website
+2023-06-01 18:30:23,988 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:30:24,137 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:30:24,222 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:30:24,291 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:30:24,631 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:30:24,787 - logger_File -INFO - User successfully clicked on Orders option
+2023-06-01 18:31:06,620 - logger_File -INFO - User is on retail website
+2023-06-01 18:31:06,734 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:31:06,867 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:31:06,961 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:31:07,037 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:31:07,327 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:31:07,485 - logger_File -INFO - User successfully clicked on Orders option
+2023-06-01 18:31:07,709 - logger_File -INFO - Review button has been clicked succesffuly
+2023-06-01 18:31:07,951 - logger_File -INFO - Headline and Review text has been entered successfully
+2023-06-01 18:31:08,030 - logger_File -INFO - Add Your Review button has been clicked successfully
+2023-06-01 18:31:08,713 - logger_File -INFO - Your review was added successfully
+2023-06-01 18:31:10,396 - logger_File -INFO - User is on retail website
+2023-06-01 18:31:10,497 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:31:10,635 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:31:10,728 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:31:10,805 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:31:11,147 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:31:12,805 - logger_File -INFO - User is on retail website
+2023-06-01 18:31:12,925 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:31:13,021 - logger_File -INFO - User successfully clicked on Create New Account button
+2023-06-01 18:31:13,760 - logger_File -INFO - User entered name, email, password, confirm password successfully !
+2023-06-01 18:31:13,846 - logger_File -INFO - User successfully clicked on signUp button
+2023-06-01 18:32:24,635 - logger_File -INFO - User is on retail website
+2023-06-01 18:32:24,808 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:32:24,948 - logger_File -INFO - Options: Electronics, Computers, Smart Home, Sports, and Automative are present.
+2023-06-01 18:32:26,590 - logger_File -INFO - User is on retail website
+2023-06-01 18:32:26,727 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:32:26,758 - logger_File -INFO - User is on Electronics section
+2023-06-01 18:32:28,372 - logger_File -INFO - User is on retail website
+2023-06-01 18:32:28,519 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:32:28,548 - logger_File -INFO - User is on Computers section
+2023-06-01 18:32:30,245 - logger_File -INFO - User is on retail website
+2023-06-01 18:32:30,418 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:32:30,455 - logger_File -INFO - User is on Smart Home section
+2023-06-01 18:32:32,377 - logger_File -INFO - User is on retail website
+2023-06-01 18:32:32,570 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:32:32,608 - logger_File -INFO - User is on Sports section
+2023-06-01 18:32:34,443 - logger_File -INFO - User is on retail website
+2023-06-01 18:32:34,634 - logger_File -INFO - All departments section has clicked successfully
+2023-06-01 18:32:34,674 - logger_File -INFO - User is on Automative section
+2023-06-01 18:32:36,707 - logger_File -INFO - User is on retail website
+2023-06-01 18:32:36,834 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:32:37,044 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:32:37,179 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:32:37,309 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:32:37,637 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:32:37,870 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:32:38,298 - logger_File -INFO - User successfully entered new name and phone number.
+2023-06-01 18:33:00,080 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:00,185 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:00,319 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:00,405 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:00,490 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:00,796 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:00,955 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:33:01,071 - logger_File -INFO - User successfully clicked on add payment method link
+2023-06-01 18:33:01,563 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:33:01,648 - logger_File -INFO - Add Your Card button was successfully clicked
+2023-06-01 18:33:02,378 - logger_File -INFO - Payment method addedd successfully
+2023-06-01 18:33:03,907 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:04,046 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:04,211 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:04,286 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:04,364 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:04,697 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:04,862 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:33:05,088 - logger_File -INFO - User successfully clicked on Edit button
+2023-06-01 18:33:05,815 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:33:05,893 - logger_File -INFO - User successfully clicked on Update Your Card button
+2023-06-01 18:33:06,619 - logger_File -INFO - Payment method updated successfully
+2023-06-01 18:33:08,254 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:08,374 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:08,500 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:08,581 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:08,663 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:08,955 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:09,114 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:33:09,306 - logger_File -INFO - remove button was clicked successfully
+2023-06-01 18:33:09,328 - logger_File -INFO - Payment details removed successfully
+2023-06-01 18:33:11,055 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:11,214 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:11,433 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:11,565 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:11,691 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:11,996 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:12,222 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:33:12,391 - logger_File -INFO - Add Address option was clicked successfully
+2023-06-01 18:33:13,302 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:33:13,384 - logger_File -INFO - Add Your Address button was clicked successfully
+2023-06-01 18:33:14,130 - logger_File -INFO - Address Added Successfully
+2023-06-01 18:33:15,850 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:15,990 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:16,189 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:16,309 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:16,415 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:16,738 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:16,933 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:33:17,075 - logger_File -INFO - Edit button was clicked successfully
+2023-06-01 18:33:18,893 - logger_File -INFO - Informations were added successfully
+2023-06-01 18:33:19,083 - logger_File -INFO - Update Your Address Button was clicked successfully
+2023-06-01 18:33:19,842 - logger_File -INFO - Address Updated Successfully
+2023-06-01 18:33:21,475 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:21,655 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:21,874 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:21,995 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:22,091 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:22,387 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:22,584 - logger_File -INFO - User successfully clicked on Account option.
+2023-06-01 18:33:22,735 - logger_File -INFO - Remove button from Address section was clicked successfully
+2023-06-01 18:33:22,736 - logger_File -INFO - Address details have removed successfully
+2023-06-01 18:33:24,522 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:24,650 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:24,838 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:24,970 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:25,081 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:25,439 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:25,612 - logger_File -INFO - User successfully changed the category to <Smart Home> 
+2023-06-01 18:33:26,023 - logger_File -INFO - Item has clicked successfully
+2023-06-01 18:33:26,240 - logger_File -INFO - User successfully selected the quantity to 2
+2023-06-01 18:33:26,425 - logger_File -INFO - Quantity changed to 2
+2023-06-01 18:33:28,237 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:28,376 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:28,581 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:28,699 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:28,819 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:29,151 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:29,308 - logger_File -INFO - User successfully changed the category to Electronics
+2023-06-01 18:33:29,715 - logger_File -INFO - Item has clicked successfully
+2023-06-01 18:33:29,899 - logger_File -INFO - Quantity selected successfully to 5
+2023-06-01 18:33:30,051 - logger_File -INFO - Quantity changed to 7
+2023-06-01 18:33:30,177 - logger_File -INFO - User successfully clicked on cart Option
+2023-06-01 18:33:30,327 - logger_File -INFO - User successfully clicked on Proceed to Checkout button
+2023-06-01 18:33:30,477 - logger_File -INFO - User successfully clicked on Place Your Order
+2023-06-01 18:33:31,254 - logger_File -INFO - Order Placed Successfully
+2023-06-01 18:33:32,883 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:33,042 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:33,242 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:33,374 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:33,487 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:33,857 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:34,038 - logger_File -INFO - User successfully clicked on Orders option
+2023-06-01 18:33:34,295 - logger_File -INFO - Cancel The Order button has clicked successfully
+2023-06-01 18:33:34,520 - logger_File -INFO - User successfully clicked on Cancel Order button
+2023-06-01 18:33:34,648 - logger_File -INFO - Your Order Has Been Cancelled
+2023-06-01 18:33:36,488 - logger_File -INFO - User is on retail website
+2023-06-01 18:33:36,607 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:33:36,803 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:33:36,915 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:33:37,023 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:33:37,354 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:33:37,549 - logger_File -INFO - User successfully clicked on Orders option
+2023-06-01 18:34:19,448 - logger_File -INFO - User is on retail website
+2023-06-01 18:34:19,569 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:34:19,709 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:34:19,791 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:34:19,869 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:34:20,166 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:34:20,340 - logger_File -INFO - User successfully clicked on Orders option
+2023-06-01 18:34:20,625 - logger_File -INFO - Review button has been clicked succesffuly
+2023-06-01 18:34:20,903 - logger_File -INFO - Headline and Review text has been entered successfully
+2023-06-01 18:34:20,981 - logger_File -INFO - Add Your Review button has been clicked successfully
+2023-06-01 18:34:21,641 - logger_File -INFO - Your review was added successfully
+2023-06-01 18:34:23,297 - logger_File -INFO - User is on retail website
+2023-06-01 18:34:23,402 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:34:23,523 - logger_File -INFO - israr07@tekschool.us was entered successfully !
+2023-06-01 18:34:23,617 - logger_File -INFO - Tek@12345 was entered successfully !
+2023-06-01 18:34:23,697 - logger_File -INFO - User successfully clicked on login button.
+2023-06-01 18:34:23,973 - logger_File -INFO - User successfully logged in into account
+2023-06-01 18:34:25,551 - logger_File -INFO - User is on retail website
+2023-06-01 18:34:25,691 - logger_File -INFO - User successfully clicked on signin option.
+2023-06-01 18:34:25,788 - logger_File -INFO - User successfully clicked on Create New Account button
+2023-06-01 18:34:26,534 - logger_File -INFO - User entered name, email, password, confirm password successfully !
+2023-06-01 18:34:26,620 - logger_File -INFO - User successfully clicked on signUp button
