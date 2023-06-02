@@ -60,23 +60,18 @@ public class RetailOrderSteps extends CommonUtilities {
 		logger.info("Item has clicked successfully");
 	}
 
-	@When("User select quantity '2'")
-	public void userSelectQuantity2() {
-		waitTillPresence(factory.getOrderPage().quantityDropdown);
-		selectByVisibleText(factory.getOrderPage().quantityDropdown, "2");
-		logger.info("User successfully selected the quantity to 2");
-	}
+//	@When("User select quantity '2'")
+//	public void userSelectQuantity2() {
+//		waitTillPresence(factory.getOrderPage().quantityDropdown);
+//		selectByVisibleText(factory.getOrderPage().quantityDropdown, "2");
+//		logger.info("User successfully selected the quantity to 2");
+//	}
 
 	@When("User click add to Cart button")
 	public void userClickAddToCartButton() {
 		click(factory.getOrderPage().addToCartButton);
 	}
 
-//	@Then("cart icon quantity should change to '2'")
-//	public void cartIconQuantityShouldChangeTo2() {
-//		Assert.assertTrue(factory.getOrderPage().cartIconQuantity.isDisplayed());
-//		logger.info("Quantity changed to 2");
-//	}
 
 	@Then("cart icon quantity should change to {string}")
 	public void cartIconQuantityShouldChangeTo(String quantTwo) {

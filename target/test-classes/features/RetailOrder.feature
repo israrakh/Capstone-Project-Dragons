@@ -52,7 +52,6 @@ Feature: Retail Order Page
 	#@ReviewOrder
   Scenario: Verify User can write a review on order placed
     And User click on Orders section
-    And User click on first order in list
     And User click on Review button
     And User write Review headline 'headline value' and 'review text'
     And User click Add your Review button
