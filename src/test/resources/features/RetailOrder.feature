@@ -8,7 +8,7 @@ Feature: Retail Order Page
     And User click on login button
     And User should be logged in into Account
 
-  #@OrderTest
+  #@AddProductTest
   Scenario: Verify User can add an item to cart
     And User change category to 'Smart Home'
     And User search for item 'kasa outdoor smart plug'
@@ -17,8 +17,12 @@ Feature: Retail Order Page
     And User select quantity '2'
     And User click add to Cart button
     Then cart icon quantity should change to '2'
+    And User click on Cart option
+    And User click on Proceed to Checkout button
+    And User click on Place Your Order
+    Then a message should be displayed 'Order Placed, Thanks'
 
-  #@CancelOrder
+  #@CancelOrderTest
   Scenario: Verify User can cancel the order
     And User click on Orders section
     And User click on Cancel The Order button
@@ -26,7 +30,7 @@ Feature: Retail Order Page
     And User click on Cancel Order button
     Then a cancelation message should be displayed 'Your Order Has Been Cancelled'
 
-  #@OrderPlacing
+  #@OrderPlacingAgain
   Scenario: Verify User can place an order with Shipping address and payment Method on file
     And User change the category to 'Electronics'
     And User search for an item 'Apex Legends'
