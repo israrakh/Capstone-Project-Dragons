@@ -69,7 +69,6 @@ public class RetailOrderSteps extends CommonUtilities {
 		click(factory.getOrderPage().addToCartButton);
 	}
 
-
 	@Then("cart icon quantity should change to {string}")
 	public void cartIconQuantityShouldChangeTo(String quantTwo) {
 		Assert.assertTrue(factory.getOrderPage().cartIconQuantity.isDisplayed());
@@ -129,7 +128,7 @@ public class RetailOrderSteps extends CommonUtilities {
 		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
 		logger.info("Quantity changed to 7");
 	}
-	
+
 	@Then("User click on Cart option")
 	public void userClickOnCartOption() {
 		click(factory.getOrderPage().addToCartOption);
@@ -196,22 +195,7 @@ public class RetailOrderSteps extends CommonUtilities {
 				factory.getOrderPage().orderCancelationMessage.getText().trim());
 		logger.info("Your Order Has Been Cancelled");
 	}
-	
-	@When("User click on Buy again button")
-	public void userClickOnBuyAgainButton() {
-	    waitTillPresence(factory.getOrderPage().buyAgainBtn);
-	    click(factory.getOrderPage().buyAgainBtn);
-	    logger.info("Buy again button clicked successfully");
-	}
-	@When("User click on place your order button")
-	public void userClickOnPlaceYourOrderButton() {
-	   waitTillPresence(factory.getOrderPage().placeYourOrderBtn);
-	   click(factory.getOrderPage().placeYourOrderBtn);
-	   logger.info("Place you order button has clicked successfully");
-	   waitTillPresence(factory.getHomePage().ordersOption);
-	   click(factory.getHomePage().ordersOption);
-	}
-	
+
 	@When("User click on Return Items button")
 	public void userClickOnReturnItemsButton() {
 		waitTillPresence(factory.getOrderPage().returnItemsButton);
