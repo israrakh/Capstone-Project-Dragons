@@ -6310,3 +6310,40 @@
 2023-06-01 18:34:26,534 [main] INFO logger_File - User entered name, email, password, confirm password successfully !
 2023-06-01 18:34:26,620 [main] INFO logger_File - User successfully clicked on signUp button
 >>>>>>> 492ae49bc3502790aba8415820079c6603daf83e
+2023-06-03 12:11:12,098 [main] INFO logger_File - User is on retail website
+2023-06-03 12:11:12,214 [main] INFO logger_File - User successfully clicked on signin option.
+2023-06-03 12:11:12,392 [main] INFO logger_File - israr07@tekschool.us was entered successfully !
+2023-06-03 12:11:12,489 [main] INFO logger_File - Tek@12345 was entered successfully !
+2023-06-03 12:11:12,576 [main] INFO logger_File - User successfully clicked on login button.
+2023-06-03 12:11:13,219 [main] INFO logger_File - User successfully logged in into account
+2023-06-03 12:11:13,411 [main] INFO logger_File - User successfully clicked on Orders option
+2023-06-03 12:11:13,565 [main] INFO logger_File - Buy again button clicked successfully
+2023-06-03 12:11:13,671 [main] INFO logger_File - Place you order button has clicked successfully
+2023-06-03 12:11:43,465 [main] INFO logger_File - User is on retail website
+2023-06-03 12:11:43,693 [main] INFO logger_File - User successfully clicked on signin option.
+2023-06-03 12:11:43,842 [main] INFO logger_File - israr07@tekschool.us was entered successfully !
+2023-06-03 12:11:43,932 [main] INFO logger_File - Tek@12345 was entered successfully !
+2023-06-03 12:11:44,010 [main] INFO logger_File - User successfully clicked on login button.
+2023-06-03 12:11:44,301 [main] INFO logger_File - User successfully logged in into account
+2023-06-03 12:11:44,489 [main] INFO logger_File - User successfully clicked on Orders option
+2023-06-03 12:11:44,649 [main] INFO logger_File - Buy again button clicked successfully
+2023-06-03 12:11:44,758 [main] INFO logger_File - Place you order button has clicked successfully
+2023-06-03 12:11:49,459 [main] INFO logger_File - User Successfully clicked on Return Items button
+2023-06-03 12:11:49,574 [main] INFO logger_File - User successfully selected the Item damage option from dropdown
+2023-06-03 12:11:49,673 [main] INFO logger_File - User successfully selected the FedEx option from dropdown
+2023-06-03 12:11:49,750 [main] INFO logger_File - User successfully clicked on Return Order button
+2023-06-03 12:11:49,928 [main] INFO logger_File - Return was successful
+2023-06-03 12:12:22,535 [main] INFO logger_File - User is on retail website
+2023-06-03 12:12:22,669 [main] INFO logger_File - User successfully clicked on signin option.
+2023-06-03 12:12:22,833 [main] INFO logger_File - israr07@tekschool.us was entered successfully !
+2023-06-03 12:12:22,930 [main] INFO logger_File - Tek@12345 was entered successfully !
+2023-06-03 12:12:23,017 [main] INFO logger_File - User successfully clicked on login button.
+2023-06-03 12:12:23,373 [main] INFO logger_File - User successfully logged in into account
+2023-06-03 12:12:23,558 [main] INFO logger_File - User successfully clicked on Orders option
+2023-06-03 12:12:23,703 [main] INFO logger_File - Buy again button clicked successfully
+2023-06-03 12:12:23,804 [main] INFO logger_File - Place you order button has clicked successfully
+2023-06-03 12:12:24,053 [main] INFO logger_File - User Successfully clicked on Return Items button
+2023-06-03 12:12:24,179 [main] INFO logger_File - User successfully selected the Item damage option from dropdown
+2023-06-03 12:12:24,290 [main] INFO logger_File - User successfully selected the FedEx option from dropdown
+2023-06-03 12:12:24,372 [main] INFO logger_File - User successfully clicked on Return Order button
+2023-06-03 12:12:24,488 [main] INFO logger_File - Return was successful

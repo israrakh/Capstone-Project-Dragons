@@ -55,9 +55,6 @@ public class RetailOrderSteps extends CommonUtilities {
 	public void userSelectQuantity(String quant) {
 		selectByVisibleText(factory.getOrderPage().quantityDropdown, quant);
 		logger.info("User successfully selected the quantity to 2");
-		waitTillPresence(factory.getOrderPage().item);
-		click(factory.getOrderPage().item);
-		logger.info("Item has clicked successfully");
 	}
 
 //	@When("User select quantity '2'")
@@ -199,7 +196,22 @@ public class RetailOrderSteps extends CommonUtilities {
 				factory.getOrderPage().orderCancelationMessage.getText().trim());
 		logger.info("Your Order Has Been Cancelled");
 	}
-
+	
+	@When("User click on Buy again button")
+	public void userClickOnBuyAgainButton() {
+	    waitTillPresence(factory.getOrderPage().buyAgainBtn);
+	    click(factory.getOrderPage().buyAgainBtn);
+	    logger.info("Buy again button clicked successfully");
+	}
+	@When("User click on place your order button")
+	public void userClickOnPlaceYourOrderButton() {
+	   waitTillPresence(factory.getOrderPage().placeYourOrderBtn);
+	   click(factory.getOrderPage().placeYourOrderBtn);
+	   logger.info("Place you order button has clicked successfully");
+	   waitTillPresence(factory.getHomePage().ordersOption);
+	   click(factory.getHomePage().ordersOption);
+	}
+	
 	@When("User click on Return Items button")
 	public void userClickOnReturnItemsButton() {
 		waitTillPresence(factory.getOrderPage().returnItemsButton);

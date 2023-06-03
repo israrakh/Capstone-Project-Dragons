@@ -87,4 +87,7 @@ public class RetailOrderPage extends BaseSetup {
 	
 	@FindBy(xpath = "//div[text()='Your review was added successfully']")
 	public WebElement reviewAddedSuccessMessage;
+	
+	@FindBy(id = "buyAgainBtn")
+	public WebElement buyAgainBtn;
 }

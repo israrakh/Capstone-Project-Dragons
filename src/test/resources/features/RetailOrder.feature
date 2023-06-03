@@ -42,7 +42,9 @@ Feature: Retail Order Page
 
   #@ReturnOrder
   Scenario: Verify User can Return the order
-    And User click on Orders section
+  	And User click on Orders section
+  	And User click on Buy again button 
+  	And User click on place your order button
     And User click on Return Items button
     And User select the Return Reason 'Item damaged'
     And User select the drop off service 'FedEx'
