@@ -75,6 +75,47 @@ public class RetailOrderSteps extends CommonUtilities {
 		logger.info("Quantity changed to 2");
 	}
 
+	@When("User click on Orders section")
+	public void userClickOnOrdersSection() {
+		waitTillPresence(factory.getHomePage().ordersOption);
+		click(factory.getHomePage().ordersOption);
+		logger.info("User successfully clicked on Orders option");
+	}
+
+//	@When("User click on first order in list")
+//	public void userClickOnFirstOrderInList() {
+//		waitTillPresence(factory.getOrderPage().orderDetailList);
+//		click(factory.getOrderPage().orderDetailList);
+//	}
+
+	@When("User click on Cancel The Order button")
+	public void userClickOnCancelTheOrderButton() {
+		waitTillPresence(factory.getOrderPage().cancelTheOrderButton);
+		click(factory.getOrderPage().cancelTheOrderButton);
+		logger.info("Cancel The Order button has clicked successfully");
+	}
+
+	@When("User select the cancelation Reason 'Bought wrong item'")
+	public void userSelectTheCancelationReasonBoughtWrongItem() {
+		Select select = new Select(factory.getOrderPage().cancelationReasonDropdown);
+		select.selectByVisibleText("Bought wrong item");
+	}
+
+	@When("User click on Cancel Order button")
+	public void userClickOnCancelOrderButton() {
+		click(factory.getOrderPage().cancelOrderBtn);
+		logger.info("User successfully clicked on Cancel Order button");
+	}
+
+	@Then("a cancelation message should be displayed 'Your Order Has Been Cancelled'")
+	public void aCancelationMessageShouldBeDisplayedYourOrderHasBeenCancelled() {
+		waitTillPresence(factory.getOrderPage().orderCancelationMessage);
+		Assert.assertEquals("Your Order Has Been Cancelled",
+				factory.getOrderPage().orderCancelationMessage.getText().trim());
+		logger.info("Your Order Has Been Cancelled");
+	}
+	
+//  -----------------------------------------------------------------------------
 //	@When("User change the category to 'Electronics'")
 //	public void userChangeTheCategoryToElectronics() {
 //		selectByVisibleText(factory.getHomePage().allDepartments, "Electronics");
@@ -126,7 +167,7 @@ public class RetailOrderSteps extends CommonUtilities {
 	@Then("the cart icon quantity should change to {string}")
 	public void theCartIconQuantityShouldChangeTo(String quantSeven) {
 		Assert.assertTrue(isElementDisplayed(factory.getOrderPage().cartIconQuantity));
-		logger.info("Quantity changed to 7");
+		logger.info("Quantity changed to 5");
 	}
 
 	@Then("User click on Cart option")
@@ -154,46 +195,6 @@ public class RetailOrderSteps extends CommonUtilities {
 		Assert.assertEquals("Order Placed Successfully",
 				factory.getOrderPage().orderPlacedSuccessMessage.getText().trim());
 		logger.info("Order Placed Successfully");
-	}
-
-	@When("User click on Orders section")
-	public void userClickOnOrdersSection() {
-		waitTillPresence(factory.getHomePage().ordersOption);
-		click(factory.getHomePage().ordersOption);
-		logger.info("User successfully clicked on Orders option");
-	}
-
-//	@When("User click on first order in list")
-//	public void userClickOnFirstOrderInList() {
-//		waitTillPresence(factory.getOrderPage().orderDetailList);
-//		click(factory.getOrderPage().orderDetailList);
-//	}
-
-	@When("User click on Cancel The Order button")
-	public void userClickOnCancelTheOrderButton() {
-		waitTillPresence(factory.getOrderPage().cancelTheOrderButton);
-		click(factory.getOrderPage().cancelTheOrderButton);
-		logger.info("Cancel The Order button has clicked successfully");
-	}
-
-	@When("User select the cancelation Reason 'Bought wrong item'")
-	public void userSelectTheCancelationReasonBoughtWrongItem() {
-		Select select = new Select(factory.getOrderPage().cancelationReasonDropdown);
-		select.selectByVisibleText("Bought wrong item");
-	}
-
-	@When("User click on Cancel Order button")
-	public void userClickOnCancelOrderButton() {
-		click(factory.getOrderPage().cancelOrderBtn);
-		logger.info("User successfully clicked on Cancel Order button");
-	}
-
-	@Then("a cancelation message should be displayed 'Your Order Has Been Cancelled'")
-	public void aCancelationMessageShouldBeDisplayedYourOrderHasBeenCancelled() {
-		waitTillPresence(factory.getOrderPage().orderCancelationMessage);
-		Assert.assertEquals("Your Order Has Been Cancelled",
-				factory.getOrderPage().orderCancelationMessage.getText().trim());
-		logger.info("Your Order Has Been Cancelled");
 	}
 
 	@When("User click on Return Items button")
