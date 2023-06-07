@@ -128,5 +128,71 @@ public class RetailHomeSteps extends CommonUtilities {
 			}
 		}
 	}
-
+	/*
+	 * @When("User on {string}")
+	 * 
+	 * public void userOn(String department) {
+	 * 
+	 * List<WebElement> sideBarOptions = factory.getHomePage().sideBarElements;
+	 * 
+	 * for (WebElement option : sideBarOptions) {
+	 * 
+	 * //Temporary solution
+	 * 
+	 * String el = option.getText();
+	 * 
+	 * if (el.equals(department)) {
+	 * 
+	 * click(option);
+	 * 
+	 * try {
+	 * 
+	 * logger.info("User clicked on " + el + " sidebar option");
+	 * 
+	 * } catch (StaleElementReferenceException e) {
+	 * 
+	 * }
+	 * 
+	 * break;
+	 * 
+	 * }
+	 * 
+	 * }
+	 * 
+	 * }
+	 * 
+	 * @Then("below options are present in department")
+	 * 
+	 * public void belowOptionsArePresentInDepartment(DataTable dataTable) {
+	 * 
+	 * List<List<String>> expectedDepartmentOptions =
+	 * dataTable.asLists(String.class);
+	 * 
+	 * List<WebElement> actualDepartmentOptions =
+	 * factory.getHomePage().sideBarOptionElements;
+	 * 
+	 * for (int i = 0; i < expectedDepartmentOptions.get(0).size(); i++) {
+	 * 
+	 * for (WebElement dept : actualDepartmentOptions) {
+	 * 
+	 * if (dept.getText().equals(expectedDepartmentOptions.get(0).get(i))) {
+	 * 
+	 * Assert.assertTrue(isElementDisplayed(dept));
+	 * 
+	 * logger.info("Department " + dept.getText() + " is present");
+	 * 
+	 * }
+	 * }
+	 * 
+	 * }
+	 * 
+	 * }
+	 * @FindBy(xpath = "//div[@class='sidebar_content-item']/span")
+	 * 
+	 * public List<WebElement> sideBarElements;
+	 * 
+	 * @FindBy(xpath = "//div[@class='sidebar_content-item']/span")
+	 * 
+	 * public List<WebElement> sideBarOptionElements;
+	 */
 }
