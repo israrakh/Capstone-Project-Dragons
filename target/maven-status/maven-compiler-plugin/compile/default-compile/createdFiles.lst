@@ -1,9 +1,0 @@
-tek\capstone\config\FireFoxBrowser.class
-tek\capstone\utilities\CommonUtilities.class
-tek\capstone\utilities\ReadYamlFiles.class
-tek\capstone\config\ChromeBrowser.class
-tek\capstone\base\BaseSetup.class
-tek\capstone\config\ChromeHeadless.class
-tek\capstone\utilities\FileUtility.class
-tek\capstone\config\Browser.class
-tek\capstone\config\EdgeBrowser.class

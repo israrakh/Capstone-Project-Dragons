@@ -11,7 +11,7 @@ Feature: Retail Account Page
   #@Update
   Scenario: Verify User can update Profile Information
     When User click on Account option
-    And User update Name 'Omar Ali' and Phone '757-777-9898'
+    And User update Name 'Ali Omar' and Phone '757-777-9898'
     And User click on Update button
     Then user profile information should be updated
 
@@ -21,7 +21,7 @@ Feature: Retail Account Page
     And User click on Add a payment method link
     And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 7779991112245555 | Israr      |               9 |           2030 |          123 |
+      | 7779991112246666 | Israr      |               9 |           2030 |          123 |
     And User click on Add your card button
     Then a message should be displayed 'Payment Method added successfully'
 
@@ -31,7 +31,7 @@ Feature: Retail Account Page
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 1593578521454444 | Afghan     |               6 |           2034 |          707 |
+      | 1593578521455555 | Ali     |               6 |           2034 |          707 |
     And user click on Update Your Card button
     Then a message should be displayed 'Payment Method updated Successfully'
 
